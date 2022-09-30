@@ -1,9 +1,9 @@
 <?php
 
-class test
+class Test
 {
-public $name;
-    public function __construct(string $name)
+public $name = 'Sergei';
+    public function __construct($name)
     {
         $this->name = $name;
     }
